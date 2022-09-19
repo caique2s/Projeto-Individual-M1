@@ -55,13 +55,13 @@ section p{
 } 
 
 section:nth-of-type(1){
-    background-image: url(../CaiqueM1/img/111.png);
+    background-image: url(111.png);
 }
 section:nth-of-type(2){
-    background-image: url(../CaiqueM1/img/222.png);
+    background-image: url(222.png);
 }
 section:nth-of-type(3){
-    background-image: url(../CaiqueM1/img/333.png);
+    background-image: url(333.png);
 }
 
 input[type=text], select, textarea {
