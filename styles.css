@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+ }
+ 
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    display: inline-block;
+    margin: 15px 10px;
+    color: #F0EBE3;
+    font-weight: 700;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid #F0EBE3;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+section h1{
+    font-size: 4rem;
+    color: #F0EBE3;
+}
+
+section p{
+    font-size: 1.6rem;
+    color: #F0EBE3;
+} 
+
+section:nth-of-type(1){
+    background-image: url(../CaiqueM1/img/111.png);
+}
+section:nth-of-type(2){
+    background-image: url(../CaiqueM1/img/222.png);
+}
+section:nth-of-type(3){
+    background-image: url(../CaiqueM1/img/333.png);
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+  
+  input[type=submit] {
+    background-color: #7D9D9C;
+    color: #F0EBE3;
+    padding: 12px 20px;
+    border: none;
+}
+
+  
